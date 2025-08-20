@@ -1,0 +1,17 @@
+{
+    "name": "mmz-potsdam/minimal-mark",
+    "description": "Minimal League\\CommonMark extension supporting em, strong and autolink",
+    "type": "library",
+    "keywords": ["markdown"],
+    "license": "BSD-3-Clause",
+    "autoload": {
+        "psr-4": {
+            "MinimalMark\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.4|^8.0",
+
+        "league/commonmark": "^2.7"
+    }
+}
